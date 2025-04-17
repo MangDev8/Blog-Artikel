@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog MangDev8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8fafc;
+    }
+    .post-card:hover {
+      transform: translateY(-4px);
+      transition: transform 0.2s;
+    }
+  </style>
+</head>
+<body class="text-gray-800">  <!-- Navbar -->  <nav class="bg-white shadow sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold text-indigo-600">MangDev8 Blog</h1>
+      <a href="/admin" class="text-sm text-gray-700 hover:text-indigo-600">Login Admin</a>
+    </div>
+  </nav>  <!-- Header -->  <header class="bg-indigo-600 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Selamat Datang di Blog</h2>
+    <p class="text-lg max-w-2xl mx-auto">Berbagai pembahasan menarik seputar teknologi, anime, tutorial coding, dan lainnya.</p>
+  </header>  <!-- Blog Posts Section -->  <section class="max-w-6xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-8 text-gray-800">Artikel Terbaru</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blog-list">
+      <!-- Artikel akan muncul otomatis dari CMS -->
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-white border-t mt-10 py-6 text-center text-sm text-gray-500">
+    &copy; 2025 MangDev8 Blog. Dibuat dengan semangat dan kopi.
+  </footer>  <!-- CMS Script -->  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script></body>
+</html>
