@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: mangdev8/blog-mangdev8  # Ganti sesuai username dan nama repo kamu
+  repo: mangdev8/blog-mangdev8
   branch: main
 
 media_folder: "uploads"
