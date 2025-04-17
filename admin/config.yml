@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: mangdev8/blog-mangdev8  # Ganti sesuai username dan nama repo kamu
   branch: main
 
-media_folder: "uploads" # tempat gambar disimpan
+media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
@@ -14,5 +15,5 @@ collections:
     fields:
       - { label: "Judul", name: "title", widget: "string" }
       - { label: "Tanggal", name: "date", widget: "datetime" }
-      - { label: "Gambar Sampul", name: "thumbnail", widget: "image" }
-      - { label: "Isi Artikel", name: "body", widget: "markdown" }
+      - { label: "Isi", name: "body", widget: "markdown" }
+      - { label: "Gambar", name: "thumbnail", widget: "image" }
